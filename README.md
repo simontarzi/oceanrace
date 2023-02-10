@@ -51,7 +51,6 @@ add mapbox token
 	total number of records in microplastic data 358199
 	total number of records in OceanographicSurfaceUnderwayData 16035
   
-  Filtering: 
   	removed records from meteorological data 10280
 	removed records from microplastic data after filtering 4889
 	removed records from OceanographicSurfaceUnderwayData after filtering 0
