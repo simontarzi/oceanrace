@@ -44,5 +44,7 @@ the dataviz json has been preset with a username "tsimon", therefore it has to b
 
 ## Links
 Expert conference link: https://archive.theoceanrace.com/en/news/12202_Race-data-revealed-at-expert-conference.html 
+
 Science report: https://drive.google.com/file/d/1y0sJEghnWx_Txn7Zy4l33WZsl_3Zddwq/view 
+
 Download open-access data: https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:0170967 
