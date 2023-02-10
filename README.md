@@ -38,6 +38,8 @@ Also the latitude and longitude values been out-of-range for the visualization, 
 
 In the official microparticle csv, the latitude and longitude coordinates have been swapped, this was manually corrected.  
 
+Meteorological data has not been uploaded to github because of it's size. It has to be downloaded directly from the link at the bottom. The oceanrace.py has to be set to the folder, and will ingest all the csv within the folder. 
+
 ## Usage
 
 the dataviz json has been preset with a username "tsimon", therefore it has to be replaced with the exact username set in oceanrace_ingestion.py
