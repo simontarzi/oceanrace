@@ -44,6 +44,7 @@ Meteorological data has not been uploaded to github because of it's size. It has
 
 the dataviz json has been preset with a username "tsimon", therefore it has to be replaced with the exact username set in oceanrace_ingestion.py
 add mapbox token
+connection should be manually configured before uploading the dataviz json file to the correct CDW Hive. 
 
 ## Output of spark job
 
