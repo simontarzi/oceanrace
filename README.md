@@ -11,6 +11,13 @@ It crosses four oceans and take in 12 major cities: Alicante, Lisbon, Cape Town,
 
 > Volvo Ocean Race Science Programme was funded by Volvo Cars, who have donated €100 from first 3,000 sales of the new Volvo V90 Cross Country Volvo Ocean Race edition to support the initiative. 
 
+## Motivation
+The round-the-world sailing race will measure microplastic pollution, gather information about the impact of climate change on the ocean and collect data to improve global weather forecasting! This is the most ambitious and comprehensive science programme created by a sporting event. 
+
+Every boat participating in the gruelling six-month around-the-world race will carry specialist equipment onboard to measure a range of variables throughout the 60,000km route, which will be analysed by scientists from eight leading research organisations to further understanding about the state of the ocean. Sailing through some of the most remote parts of the planet, seldom reached by scientific vessels, teams will have a unique opportunity to collect vital data where information is lacking on two of the biggest threats to the health of the seas: the impact of climate change and plastic pollution. 
+
+Launched during the 2017-18 edition of the Race in collaboration with 11th Hour Racing, Premier Partner of The Ocean Race and Founding Partner of the Racing with Purpose sustainability programme, the innovative science programme will capture even more types of data in the forthcoming Race, including for the first time levels of oxygen and trace elements in the water. Data will also be delivered to science partners faster in this edition, transmitted via satellite and reaching the organisations, which includes World Meteorological Organization, National Oceanography Centre, Max Planck Society, Centre National de la Recherche Scientifique and National Oceanic and Atmospheric Administration, in real time.
+
 ![Route](https://github.com/simontarzi/oceanrace/blob/main/pics/Screenshot%202023-02-24%20at%2016.40.11.png)
 
 
@@ -30,7 +37,7 @@ The meteorological data were collected by Dongfeng Race Team, Team Brunel, Vesta
 
 ## Ingestion and enrichment with Spark
 
-The oceanrace_ingestion.py loads the data from an S3 storage bucket, and enriches the tables with additional latitude and longitude values rounded to 1 decimal and to integer in additional columns to provide usable format for visualization. 
+CDE was used to run the oceanrace_ingestion.py ehich loads the data from an S3 storage bucket, and enriches the tables with additional latitude and longitude values rounded to 1 decimal and to integer in additional columns to provide usable format for visualization. Later on DataViz is used for data visualization. 
 
 | decimal places | degrees  | distance  | 
 |---|---|---|
