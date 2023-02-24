@@ -18,6 +18,8 @@ Every boat participating in the gruelling six-month around-the-world race will c
 
 Launched during the 2017-18 edition of the Race in collaboration with 11th Hour Racing, Premier Partner of The Ocean Race and Founding Partner of the Racing with Purpose sustainability programme, the innovative science programme will capture even more types of data in the forthcoming Race, including for the first time levels of oxygen and trace elements in the water. Data will also be delivered to science partners faster in this edition, transmitted via satellite and reaching the organisations, which includes World Meteorological Organization, National Oceanography Centre, Max Planck Society, Centre National de la Recherche Scientifique and National Oceanic and Atmospheric Administration, in real time.
 
+> The data visualization is impressive, however it will provide much more insight together with the newest dataset gathered during the latest race. 
+
 ![Route](https://github.com/simontarzi/oceanrace/blob/main/pics/Screenshot%202023-02-24%20at%2016.40.11.png)
 
 
