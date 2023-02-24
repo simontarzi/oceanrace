@@ -11,7 +11,7 @@ It crosses four oceans and take in 12 major cities: Alicante, Lisbon, Cape Town,
 
 > Volvo Ocean Race Science Programme was funded by Volvo Cars, who have donated €100 from first 3,000 sales of the new Volvo V90 Cross Country Volvo Ocean Race edition to support the initiative. 
 
-![Route](https://github.com/simontarzi/oceanrace/blob/main/pics/Screenshot%202023-02-10%20at%2022.59.40.png)
+![Route](https://github.com/simontarzi/oceanrace/blob/main/pics/Screenshot%202023-02-24%20at%2016.40.11.png)
 
 
 ## Data collected during the race (3 data sets)
@@ -19,12 +19,14 @@ It crosses four oceans and take in 12 major cities: Alicante, Lisbon, Cape Town,
 The microplastic particle information was collected from seawater samples taken during the Volvo Ocean Race, which, for the first time, combined a global sporting event with cutting-edge scientific research.
 The science initiative, part of the race’s Sustainability Programme, was presented at the MICRO2018 conference, which heard about leading research related to microplastic pollution.
 
-![Microplastic1](https://github.com/simontarzi/oceanrace/blob/main/pics/Screenshot%202023-02-10%20at%2023.00.01.png)
+![Microplastic1](https://github.com/simontarzi/oceanrace/blob/main/pics/Screenshot%202023-02-24%20at%2016.41.05.png)
 
 The oceanographic data were collected onboard "Turn the Tide on Plastic" and team "AkzoNobel". 
 The meteorological data were collected by Dongfeng Race Team, Team Brunel, Vestas 11th Hour Racing, Sun Hung Kai Scallywag, Turn the Tide on Plastic, Mapfre and Team AkzoNobel.
 
-![Microplastic2](https://github.com/simontarzi/oceanrace/blob/main/pics/Screenshot%202023-02-10%20at%2023.00.21.png)
+![Microplastic2](https://github.com/simontarzi/oceanrace/blob/main/pics/Screenshot%202023-02-24%20at%2016.41.33.png)
+
+![Microplastic3](https://github.com/simontarzi/oceanrace/blob/main/pics/Screenshot%202023-02-24%20at%2016.42.16.png)
 
 ## Ingestion and enrichment with Spark
 
