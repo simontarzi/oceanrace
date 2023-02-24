@@ -3,16 +3,15 @@
 
 The Ocean Race is often described as the longest and toughest professional sporting event in the world, sailing’s toughest team challenge and one of the sport’s Big Three events, alongside the Olympic Games and America’s Cup.
 
-The Race starts on 22 October 2017 from Alicante and finished eight months later in The Hague.
-
-At 45,000nm, this will be the longest course in the history of the race (previous longest racecourse was 39,270 in 2011-12.).
-
-It crosses four oceans and take in 12 major cities: Alicante, Lisbon, Cape Town, Melbourne, Hong Kong, Guangzhou, Auckland, Itajaí, Newport RI, Cardiff, Gothenburg and The Hague.
+The Volvo Ocean Race started on 22 October 2017 from Alicante and finished eight months later in The Hague. The latest race is renamed to Ocean Race and started on 15 January 2023. 
 
 > Volvo Ocean Race Science Programme was funded by Volvo Cars, who have donated €100 from first 3,000 sales of the new Volvo V90 Cross Country Volvo Ocean Race edition to support the initiative. 
 
+The 2017 race was 45,000nm, this was the longest course in the history of the race (previous longest racecourse was 39,270 in 2011-12.).
+It crossed four oceans and take in 12 major cities: Alicante, Lisbon, Cape Town, Melbourne, Hong Kong, Guangzhou, Auckland, Itajaí, Newport RI, Cardiff, Gothenburg and The Hague.
+
 ## Motivation
-The round-the-world sailing race will measure microplastic pollution, gather information about the impact of climate change on the ocean and collect data to improve global weather forecasting! This is the most ambitious and comprehensive science programme created by a sporting event. 
+2022-2023 Ocean Race: The round-the-world sailing race will measure microplastic pollution, gather information about the impact of climate change on the ocean and collect data to improve global weather forecasting! This is the most ambitious and comprehensive science programme created by a sporting event. 
 
 Every boat participating in the gruelling six-month around-the-world race will carry specialist equipment onboard to measure a range of variables throughout the 60,000km route, which will be analysed by scientists from eight leading research organisations to further understanding about the state of the ocean. Sailing through some of the most remote parts of the planet, seldom reached by scientific vessels, teams will have a unique opportunity to collect vital data where information is lacking on two of the biggest threats to the health of the seas: the impact of climate change and plastic pollution. 
 
