@@ -36,9 +36,9 @@ The meteorological data were collected by Dongfeng Race Team, Team Brunel, Vesta
 
 ![Microplastic3](https://github.com/simontarzi/oceanrace/blob/main/pics/Screenshot%202023-02-24%20at%2016.42.16.png)
 
-## Ingestion and enrichment with Spark
+## Ingestion and enrichment with Spark 
 
-CDE was used to run the oceanrace_ingestion.py ehich loads the data from an S3 storage bucket, and enriches the tables with additional latitude and longitude values rounded to 1 decimal and to integer in additional columns to provide usable format for visualization. Later on DataViz is used for data visualization. 
+CDE was used to run the oceanrace_ingestion_onejob.py which loads the data from an S3 storage bucket, and enriches the tables with additional latitude and longitude values rounded to 1 decimal and to integer in additional columns to provide usable format for visualization. Later on DataViz is used for data visualization. 
 
 | decimal places | degrees  | distance  | 
 |---|---|---|
@@ -57,12 +57,34 @@ In the official microparticle csv, the latitude and longitude coordinates have b
 
 Meteorological data has not been uploaded to github because of it's size, it can be downloaded directly via the link at the bottom. The oceanrace_ingestion.py has to be pointing to the directory which contains the meteorological csvs, and will ingest all the csv in the folder. 
 
-## Important
+You can also use the Airflow editor to prepare the 3 data sets in parallel, for that first place the oceanrace_ingestion_p0 as individual job, and connect the three jobs ending with "p1A" "p1B" 'p1C" in parallel like on the image: 
+![airflow](https://github.com/simontarzi/oceanrace/blob/main/pics/Screenshot%202023-03-27%20at%2014.01.37.png)
 
-the dataviz json has been preset with a username "tsimon", therefore it has to be replaced with the exact username set in oceanrace_ingestion.py
-add mapbox token
-connection should be manually configured before uploading the dataviz json file to the correct CDW Hive. 
+No changes required in the spark jobs, only the parameters.conf has to be adjusted, and in that case only the username if you are using the sandbox env. 
 
+## CDW - DataViz steps
+
+the dataviz json has been preset with a username "tsimon", therefore it has to be replaced with the exact username set in the parameters.conf
+also please use your own mapbox token if you are using this demo frequently on the dataviz UI. 
+
+Steps to connect to a CDW virtual warehouse
+
+Go to Data and Create a new connection: 
+![dviz1](https://github.com/simontarzi/oceanrace/blob/main/pics/Screenshot%202023-03-27%20at%2013.46.11.png)
+
+Select the warehouse that you would like to use Hive or Impala, connection name is oceanrace, leave everything as predefined and hit test to verify:
+![dviz2](https://github.com/simontarzi/oceanrace/blob/main/pics/Screenshot%202023-03-27%20at%2013.46.59.png)
+
+To import a visual, under Data hit the three dots, and Import Visual Artifacts: 
+![dviz3](https://github.com/simontarzi/oceanrace/blob/main/pics/Screenshot%202023-03-27%20at%2013.47.16.png)
+
+Select the file that you previously downloaded and modified the username to you own, hit import: 
+![dviz4](https://github.com/simontarzi/oceanrace/blob/main/pics/Screenshot%202023-03-27%20at%2013.47.44.png)
+
+You will se this windows, hit accept and import:
+![dviz5](https://github.com/simontarzi/oceanrace/blob/main/pics/Screenshot%202023-03-27%20at%2013.47.56.png)
+
+Please make sure that the CDW virtual warehouse is running! 
 ## Output of spark job
 
 	total number of records in meteorological data files 6688096
