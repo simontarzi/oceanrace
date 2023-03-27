@@ -55,7 +55,7 @@ Also the latitude and longitude values been out-of-range for the visualization, 
 
 In the official microparticle csv, the latitude and longitude coordinates have been swapped, this was manually corrected.  
 
-Meteorological data has not been uploaded to github because of it's size, it can be downloaded directly via the link at the bottom. The oceanrace_ingestion.py has to be pointing to the directory which contains the meteorological csvs, and will ingest all the csv in the folder. 
+Meteorological data has not been uploaded to github because of it's size, it can be downloaded directly via the link at the bottom. The oceanrace_ingestion_onejob.py has to be pointing to the directory which contains the meteorological csvs, and will ingest all the csv in the folder. 
 
 You can also use the Airflow editor to prepare the 3 data sets in parallel, for that first place the oceanrace_ingestion_p0 as individual job, and connect the three jobs ending with "p1A" "p1B" 'p1C" in parallel like on the image: 
 ![airflow](https://github.com/simontarzi/oceanrace/blob/main/pics/Screenshot%202023-03-27%20at%2014.01.37.png)
